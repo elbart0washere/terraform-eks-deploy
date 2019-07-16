@@ -1,5 +1,8 @@
 ### Prerequisitos
+
 Crear los usuarios administradores de EKS en IAM (con acceso programatico), agregarlos a la variable "eks_users" dentro de terraform.tfvars.
+
+
 Recorda aplicar el configmap (output) para que tus workers hagan join de manera automatica.
 Tener instalado iam-authenticator, kubectl y helm.
 
